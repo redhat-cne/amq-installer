@@ -23,7 +23,7 @@ Local producer talks to local consumer via local  messaging router.
 
 ``` 
 
-This scripts will installs qdr router on nodes with a node label `worker` and available to access via port amqp://NODE_IP:30005
+This scripts will installs qdr router on nodes with a node label `worker` and available to access via port amqp://router.router.svc.cluster.local
 
 ### To Install
 ```
