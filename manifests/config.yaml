@@ -43,4 +43,8 @@ data:
         prefix: broadcast
         distribution: multicast
     }
+    address {
+        prefix: cluster/node
+        distribution: multicast
+    }
 
